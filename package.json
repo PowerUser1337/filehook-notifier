@@ -1,0 +1,27 @@
+{
+  "name": "filehook-notifier",
+  "version": "1.0.0",
+  "description": "A lightweight application that sends notifications via webhook whenever a new file is created. Perfect for monitoring file events and integrating with other services.",
+  "homepage": "https://github.com/PowerUser1337/filehook-notifier#readme",
+  "bugs": {
+    "url": "https://github.com/PowerUser1337/filehook-notifier/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PowerUser1337/filehook-notifier.git"
+  },
+  "license": "ISC",
+  "author": "https://github.com/PowerUser1337",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "discord.js": "^14.21.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.1"
+  }
+}
